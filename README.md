@@ -1,134 +1,134 @@
-# Vue Starter Kit - وثيقة README مفصلة
+# Vue Starter Kit - Detailed README
 
-## مقدمة
+## Introduction
 
-هذا المشروع هو نقطة انطلاق حديثة لتطوير تطبيقات Vue 3 مع مجموعة من الأدوات والمكتبات الشائعة التي تسهل بناء واجهات مستخدم قوية، تفاعلية، وقابلة للتوسع. أدناه شرح مفصل لكل مكتبة مستخدمة وفائدتها في المشروع.
+This project is a modern starter kit for developing Vue 3 applications, featuring a collection of popular tools and libraries that help you build robust, interactive, and scalable user interfaces. Below is a detailed explanation of each library used and its benefit in the project.
 
 ---
 
-## المكتبات والتقنيات المستخدمة
+## Libraries & Technologies Used
 
 ### 1. [Tailwind CSS](https://tailwindcss.com/)
 
-- **الوصف:** إطار عمل CSS مساعد (Utility-First) يتيح لك بناء تصاميم سريعة وحديثة باستخدام أصناف جاهزة.
-- **الفائدة:** تسريع تطوير الواجهات مع الحفاظ على تناسق التصميم وسهولة التخصيص.
+- **Description:** A utility-first CSS framework for rapidly building modern designs using ready-made classes.
+- **Benefit:** Speeds up UI development while maintaining design consistency and easy customization.
 
 ### 2. [TypeScript](https://www.typescriptlang.org/)
 
-- **الوصف:** لغة برمجة تعتمد على JavaScript وتضيف لها نظام الأنواع (Types) الثابتة.
-- **الفائدة:** تقليل الأخطاء البرمجية، تحسين تجربة التطوير، وتسهيل صيانة الكود.
+- **Description:** A programming language that builds on JavaScript by adding static type definitions.
+- **Benefit:** Reduces code errors, improves developer experience, and makes code maintenance easier.
 
 ### 3. [@tanstack/vue-table](https://tanstack.com/table/v8/docs/guide/installation)
 
-- **الوصف:** مكتبة جداول ديناميكية وقوية تدعم التخصيص الكامل للجدول في Vue.
-- **الفائدة:** إنشاء جداول بيانات متقدمة مع دعم للفرز، التصفية، التصفح، وغيرها.
+- **Description:** A powerful, fully customizable table library for Vue.
+- **Benefit:** Create advanced data tables with support for sorting, filtering, pagination, and more.
 
 ### 4. [@unhead/vue](https://unhead.unjs.io/)
 
-- **الوصف:** إدارة عناصر `<head>` (العناوين، الوصف، الميتا) بشكل ديناميكي في تطبيقات Vue.
-- **الفائدة:** تحسين SEO وتجربة المستخدم عبر تحديث بيانات الصفحة ديناميكياً.
+- **Description:** Dynamic management of `<head>` elements (title, meta, etc.) in Vue applications.
+- **Benefit:** Improves SEO and user experience by updating page metadata dynamically.
 
 ### 5. [vee-validate](https://vee-validate.logaretm.com/)
 
-- **الوصف:** مكتبة قوية للتحقق من صحة النماذج (Forms) في Vue.
-- **الفائدة:** تسهيل التحقق من صحة المدخلات مع دعم القواعد المخصصة والتكامل مع Zod.
+- **Description:** A powerful form validation library for Vue.
+- **Benefit:** Simplifies input validation with support for custom rules and integration with Zod.
 
 ### 6. [vue-leaflet](https://vue-leaflet.github.io/vue-leaflet/)
 
-- **الوصف:** مكون Vue لدمج خرائط Leaflet التفاعلية.
-- **الفائدة:** عرض خرائط تفاعلية مع دعم العلامات، الطبقات، والتخصيص.
+- **Description:** Vue components for interactive Leaflet maps.
+- **Benefit:** Display interactive maps with support for markers, layers, and customization.
 
 ### 7. [zod](https://zod.dev/)
 
-- **الوصف:** مكتبة للتحقق من صحة البيانات (Schema Validation) باستخدام TypeScript.
-- **الفائدة:** تعريف مخططات البيانات والتحقق منها بسهولة، وتكاملها مع vee-validate.
+- **Description:** TypeScript-first schema validation library.
+- **Benefit:** Easily define and validate data schemas, integrates with vee-validate.
 
 ### 8. [VueUse](https://vueuse.org/)
 
-- **الوصف:** مجموعة من الأدوات (Composables) الجاهزة لتسهيل التعامل مع ميزات Vue Composition API.
-- **الفائدة:** تسريع التطوير عبر حلول جاهزة لمهام شائعة (مثل إدارة الحالة، الأحداث، المؤقتات).
+- **Description:** A collection of essential Vue Composition API utilities (composables).
+- **Benefit:** Accelerates development with ready-made solutions for common tasks (state, events, timers, etc.).
 
 ### 9. [@vueuse/motion](https://motion.vueuse.org/)
 
-- **الوصف:** مكتبة حركات (Animations) مبنية على VueUse.
-- **الفائدة:** إضافة حركات وتفاعلات سلسة وسهلة في واجهة المستخدم.
+- **Description:** Animation library built on top of VueUse.
+- **Benefit:** Add smooth and easy animations and interactions to your UI.
 
 ### 10. [axios](https://axios-http.com/)
 
-- **الوصف:** مكتبة HTTP لعمل طلبات API بسهولة.
-- **الفائدة:** تسهيل جلب البيانات من الخوادم أو إرسالها مع دعم كامل للـ Promise.
+- **Description:** Promise-based HTTP client for making API requests.
+- **Benefit:** Simplifies fetching and sending data to servers with full Promise support.
 
 ### 11. [echarts](https://echarts.apache.org/)
 
-- **الوصف:** مكتبة رسوم بيانية وتصور بيانات قوية وقابلة للتخصيص.
-- **الفائدة:** عرض رسوم بيانية تفاعلية ومتقدمة بسهولة.
+- **Description:** Powerful, customizable charting and data visualization library.
+- **Benefit:** Easily display advanced, interactive charts and graphs.
 
 ### 12. [gsap](https://gsap.com/)
 
-- **الوصف:** مكتبة رسوم متحركة (Animations) احترافية.
-- **الفائدة:** إنشاء حركات معقدة وسلسة لعناصر الواجهة.
+- **Description:** Professional-grade animation library.
+- **Benefit:** Create complex and smooth animations for UI elements.
 
 ### 13. [lucide](https://lucide.dev/)
 
-- **الوصف:** مكتبة أيقونات SVG حديثة وقابلة للتخصيص.
-- **الفائدة:** استخدام أيقونات جميلة ومتجاوبة في الواجهة.
+- **Description:** Modern, customizable SVG icon library.
+- **Benefit:** Use beautiful, responsive icons in your UI.
 
 ### 14. [pinia](https://pinia.vuejs.org/)
 
-- **الوصف:** مدير الحالة الرسمي لتطبيقات Vue 3.
-- **الفائدة:** إدارة حالة التطبيق بشكل مركزي وسهل مع دعم TypeScript.
+- **Description:** The official state management library for Vue 3.
+- **Benefit:** Manage application state centrally and easily, with TypeScript support.
 
 ### 15. [pinia-plugin-persistedstate](https://prazdevs.github.io/pinia-plugin-persistedstate/)
 
-- **الوصف:** إضافة لـ Pinia لحفظ الحالة في التخزين المحلي (localStorage/sessionStorage).
-- **الفائدة:** الحفاظ على بيانات الحالة بعد إعادة تحميل الصفحة.
+- **Description:** Pinia plugin for persisting state to localStorage/sessionStorage.
+- **Benefit:** Keep state data after page reloads.
 
 ### 16. [swiper](https://swiperjs.com/vue)
 
-- **الوصف:** مكتبة سلايدر (Slider/Carousel) تفاعلية وحديثة.
-- **الفائدة:** إنشاء سلايدرات متجاوبة وسهلة التخصيص.
+- **Description:** Modern, interactive slider/carousel library.
+- **Benefit:** Create responsive, customizable sliders and carousels.
 
 ### 17. [vue-i18n](https://vue-i18n.intlify.dev/)
 
-- **الوصف:** مكتبة دعم تعدد اللغات (i18n) في Vue.
-- **الفائدة:** تسهيل ترجمة التطبيق ودعم لغات متعددة.
+- **Description:** Internationalization (i18n) plugin for Vue.
+- **Benefit:** Easily translate your app and support multiple languages.
 
 ### 18. [vue-router](https://router.vuejs.org/)
 
-- **الوصف:** مدير التوجيه الرسمي لتطبيقات Vue.
-- **الفائدة:** إدارة الصفحات والتنقل بينها بسهولة مع دعم التوجيه الديناميكي.
+- **Description:** The official router for Vue applications.
+- **Benefit:** Manage pages and navigation easily, with support for dynamic routing.
 
 ### 19. [vue-toastification](https://vue-toastification.maronato.dev/)
 
-- **الوصف:** مكتبة إشعارات (Toasts) جميلة وسهلة الاستخدام في Vue.
-- **الفائدة:** عرض رسائل تنبيهية للمستخدم بشكل تفاعلي وجذاب.
+- **Description:** Beautiful, easy-to-use toast notification library for Vue.
+- **Benefit:** Display interactive and attractive notifications to users.
 
 ### 20. [vue3-carousel](https://ismail9k.github.io/vue3-carousel/)
 
-- **الوصف:** مكون Carousel مخصص لـ Vue 3.
-- **الفائدة:** إنشاء عروض شرائح (Carousels) متجاوبة وسهلة الدمج.
+- **Description:** Carousel component for Vue 3.
+- **Benefit:** Create responsive, easy-to-integrate carousels and slideshows.
 
 ---
 
-## كيفية البدء
+## Getting Started
 
-1. **تثبيت الحزم:**
+1. **Install dependencies:**
    ```bash
    npm install
    ```
-2. **تشغيل المشروع:**
+2. **Run the project:**
    ```bash
    npm run dev
    ```
 
 ---
 
-## مساهمات
+## Contributions
 
-مرحباً بجميع المساهمات! يمكنك فتح Issues أو Pull Requests لأي تحسينات أو إصلاحات.
+All contributions are welcome! Feel free to open Issues or Pull Requests for any improvements or fixes.
 
 ---
 
-## رخصة الاستخدام
+## License
 
-هذا المشروع مفتوح المصدر ويخضع لرخصة MIT.
+This project is open source and licensed under the MIT License.
